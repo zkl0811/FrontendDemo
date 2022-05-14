@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+header {
+    background-color: red;
+    height: 200px;
+    width: 800px;
+}
+
+section {
+    background-color: green;
+    height: 400px;
+    width: 800px;
+}
+
+main {
+    background-color: yellow;
+    height: 1600px;
+    width: 800px;
+}
+
+#sidebar {
+    background-color: grey;
+    position: absolute;
+    height: 150px;
+    width: 80px;
+    left: 800px;
+    top: 600px;
+}
+
+#button {
+    display: none;
+    height: 50px;
+    background-color: purple;
+    position: absolute;
+    left: 800px;
+    top: 2100px;
+}
